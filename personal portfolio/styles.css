@@ -1,0 +1,179 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    marker-start: none;
+}
+
+header {
+    display:flex;
+    gap: 800px;
+    padding: 20px;
+    background-color: #89b21a;
+    width: 100%;
+    top: 0;
+   
+  
+}
+
+.logo h2 {
+    margin:auto;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+   
+}
+
+nav {
+    display: flex;
+    align-items: center;
+  
+}
+
+.nav-links {
+    gap: 20px;
+    display:flex;
+   
+  
+
+}
+
+.nav-links li {
+    margin: 0;
+    marker: none;
+    marks: none;
+
+}
+
+.nav-links a {
+    color: rgb(199, 24, 24);
+    font-size: 18px;
+    transition: color 0.3s;
+    display: flex;
+    marks: none;
+}
+
+.nav-links a:hover {
+    color: #3c0303;
+    marks: none;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    marker: none;
+    gap: 5px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+}
+
+section {
+    padding: 20px 20px;
+    text-align: center;
+    marker: none;
+
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    background-color: #4fc0c4;
+    color: #060606;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+    padding-top: 30vh;
+}
+#about{
+    background-color: #419c47;
+}
+#skills{
+    background-color: #6e72dd;
+}
+#experience{
+    background-color: #cea7aa;
+}
+#hobbies{
+    background-color: #d9aadc;
+}
+#contact{
+    background-color:rgb(223, 103, 127);
+}
+.home-content {
+    max-width: 40%;
+    margin-bottom: 300px;
+    margin-top: 10px;
+    
+
+}
+.skills-content ,.hobbies{
+  font-weight:bold;
+  align-items: center;
+  display: inline-flex;
+  gap: 30px;
+    
+
+}
+.hobbies-content{
+    font-weight:bold;
+    align-items: center;
+    display: inline-flex;
+    gap: 30px;
+    margin-bottom: 20px;
+      
+  
+  }
+  .contact-content{
+   border-color: #060606;
+   font-size: small;
+      
+  
+  }
+.photo-section img {
+    width:300px;
+    height: 300px;;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 300px;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #c8db67;
+    border-color: #060606;
+    box-shadow: #060606;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   
+}
+
+form button:hover {
+    background-color: #ff9800;
+}
